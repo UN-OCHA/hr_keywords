@@ -1,0 +1,13 @@
+name = Humanitarianresponse Keywords
+description = Free tagging keywords
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = vppr
+features[features_api][] = api:1
+features[field][] = taxonomy_term-keywords-name_field
+features[taxonomy][] = keywords
+features[user_permission][] = administer keywords vocabulary terms
